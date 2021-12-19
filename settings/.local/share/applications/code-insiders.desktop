@@ -1,0 +1,24 @@
+[Desktop Action new-empty-window]
+Exec=/usr/share/code-insiders/code-insiders --new-window %F
+Icon=com.visualstudio.code.insiders
+Name=New Empty Window
+
+[Desktop Entry]
+Actions=new-empty-window;
+Categories=Utility;TextEditor;Development;IDE;
+Comment=Code Editing. Redefined.
+Exec=NODE_TLS_REJECT_UNAUTHORIZED=0 /usr/share/code-insiders/code-insiders --no-crash-upload --disable-reporting --disable-crashpad --disable-breakpad --disable-crash-reporter --disable-gpu-driver-bug-workarounds --disable-gpu-driver-workarounds --disable-gpu-vsync --use-gl=desktop --enable-gpu-compositing --new-canvas-2d-api --enable-quic --disable-software-rasterizer --force-dark-mode --password-store=gnome --ignore-gpu-blocklist --enable-gpu-rasterization --enable-features=VaapiVideoDecoder,WebUIDarkMode,CanvasOopRasterization --enable-tcp-fastopen --enable-smooth-scrolling --enable-accelerated-video-decode --enable-zero-copy --enable-skia-renderer --enable-native-gpu-memory-buffers --enable-gpu-memory-buffer-video-frames --enable-gpu-memory-buffer-compositor-resource --enable-accelerated-2d-canvas --enable-accelerated-mjpeg-decode --enable-oop-rasterization-ddl --enable-oop-rasterization --unity-launch %F
+GenericName=Text Editor
+Icon=com.visualstudio.code.insiders
+Keywords=vscode;
+MimeType=text/plain;inode/directory;application/x-code-insiders-workspace;
+Name=Visual Studio Code - Insiders
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+StartupWMClass=Code - Insiders
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

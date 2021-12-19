@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=5hizzle - Twitch
+Exec=/opt/google/chrome-beta/google-chrome-beta --profile-directory=Default --app-id=hbkfkdkpadjaglknmpklkbgminpfhegj
+Icon=chrome-hbkfkdkpadjaglknmpklkbgminpfhegj-Default
+StartupWMClass=crx_hbkfkdkpadjaglknmpklkbgminpfhegj

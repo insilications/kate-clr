@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Name=JDownloader 2
+Exec=JDownloader2 %f
+Icon=JDownloader2
+Icon=/insilications/apps/jd2/.install4j/JDownloader2.png
+Categories=Network;Application;

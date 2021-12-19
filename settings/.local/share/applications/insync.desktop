@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=Network;
+Comment=Launch Insync
+Exec=PYTHONMALLOC=malloc MIMALLOC_PAGE_RESET=0 MIMALLOC_LARGE_OS_PAGES=1 LD_PRELOAD='/usr/lib64/nosync/nosync.so /usr/lib64/libmimalloc.so' insync start
+GenericName=Insync
+Icon=insync
+Name=Insync
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+TryExec=insync
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=

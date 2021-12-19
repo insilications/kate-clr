@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE gui>
+<gui version="5" translationDomain="kateexternaltoolsplugin" name="externaltools">
+ <MenuBar>
+  <Menu noMerge="1" name="tools">
+   <text translationDomain="kateexternaltoolsplugin">&amp;Tools</text>
+   <Action name="tools_external"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar noMerge="1" name="mainToolBar">
+  <text translationDomain="kateexternaltoolsplugin">Main Toolbar</text>
+  <Action name="externaltool_XMLFormatFullFile8"/>
+  <Action name="externaltool_XMLFormatFullFile2"/>
+  <Action name="externaltool_XMLFormatFullFile7"/>
+  <Action name="externaltool_XMLFormatFullFile1"/>
+  <Action name="externaltool_XMLFormatFullFile5"/>
+  <Action name="externaltool_XMLFormatFullFile4"/>
+  <Action name="externaltool_XMLFormatFullFile3"/>
+  <Action name="externaltool_XMLFormatFullFile9"/>
+  <Action name="externaltool_XMLFormatFullFile12"/>
+  <Action name="externaltool_XMLFormatFullFile10"/>
+  <Action name="externaltool_XMLFormatFullFile24"/>
+  <Action name="externaltool_XMLFormatFullFile11"/>
+  <Action name="externaltool_GoogleSelectedText"/>
+  <Action name="externaltool_XMLFormatFullFile13"/>
+  <Action name="externaltool_XMLFormatFullFile20"/>
+  <Action name="externaltool_XMLFormatFullFile21"/>
+  <Action name="externaltool_XMLFormatFullFile22"/>
+  <Action name="externaltool_XMLFormatFullFile23"/>
+  <Action name="externaltool_XMLFormatFullFile14"/>
+  <Action name="externaltool_XMLFormatFullFile15"/>
+  <Action name="externaltool_XMLFormatFullFile19"/>
+  <Action name="externaltool_XMLFormatFullFile18"/>
+  <Action name="externaltool_XMLFormatFullFile17"/>
+  <Action name="externaltool_XMLFormatFullFile16"/>
+ </ToolBar>
+ <ActionProperties scheme="Default">
+  <Action shortcut="Ctrl+Alt+S" name="externaltool_ClangFormatFullFile1"/>
+  <Action shortcut="Ctrl+Alt+Q" name="externaltool_XMLFormatFullFile10"/>
+  <Action shortcut="Ctrl+Alt+P" name="externaltool_ClangFormatSelectedText1"/>
+  <Action shortcut="Alt+T" name="externaltool_XMLFormatFullFile9"/>
+ </ActionProperties>
+</gui>

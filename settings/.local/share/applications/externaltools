@@ -1,0 +1,543 @@
+[Editor]
+Size=2253,1013
+
+[Global]
+firststart=false
+tools=37
+
+[Tool 0]
+actionName=externaltool_gitcola
+arguments=-r %{Document:Path}
+category=Git
+cmdname=git-cola
+executable=git-cola
+icon=git-cola
+input=
+mimetypes=
+name=git-cola
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 1]
+actionName=externaltool_gitk
+arguments=
+category=Git
+cmdname=gitk
+executable=gitk
+icon=git-gui
+input=
+mimetypes=
+name=gitk
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 10]
+actionName=externaltool_XMLFormatFullFile
+arguments=--format %{Document:FileName}
+category=Tools
+cmdname=xml-format-file
+executable=xmllint
+icon=application-xml
+input=
+mimetypes=
+name=XML Format Full File
+output=ReplaceCurrentDocument
+reload=false
+save=CurrentDocument
+workingDir=%{Document:Path}
+
+[Tool 11]
+actionName=externaltool_XMLFormatFullFile1
+arguments=/aot/build/clearlinux/projects/common/conf/clear.cfg /aot/build/clearlinux/repo/clear.cfg
+category=Tools
+cmdname=open-clear-cfg
+executable=kate
+icon=application-xml
+input=
+mimetypes=
+name=clear.cfg
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 12]
+actionName=externaltool_XMLFormatFullFile2
+arguments=/home/boni/.xserverrc /home/boni/.xinitrc /home/boni/.profile /home/boni/.bashrc
+category=Tools
+cmdname=bashrc
+executable=kate
+icon=application-xml
+input=
+mimetypes=
+name=.bashrc
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 13]
+actionName=externaltool_XMLFormatFullFile3
+arguments=/aot/build/clearlinux/projects/autospec/autospec/specfiles.py /aot/build/clearlinux/projects/autospec/autospec/autospec.py /aot/build/clearlinux/projects/autospec/autospec/files.py /aot/build/clearlinux/projects/autospec/autospec/build.py /aot/build/clearlinux/projects/autospec/autospec/config.py /aot/build/clearlinux/projects/autospec/autospec/git.py
+category=Tools
+cmdname=specfilespy
+executable=kate
+icon=application-xml
+input=
+mimetypes=
+name=specfiles.py
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 14]
+actionName=externaltool_XMLFormatFullFile4
+arguments=/aot/build/clearlinux/projects/common/Makefile.common
+category=Tools
+cmdname=makefilecommon
+executable=kate
+icon=application-xml
+input=
+mimetypes=
+name=Makefile.common
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 15]
+actionName=externaltool_XMLFormatFullFile5
+arguments=/aot/build/clearlinux/projects/common/macros
+category=Tools
+cmdname=macros1
+executable=kate
+icon=application-xml
+input=
+mimetypes=
+name=macros
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 16]
+actionName=externaltool_XMLFormatFullFile6
+arguments=/aot/build/clearlinux/repo/trash
+category=Tools
+cmdname=trash1
+executable=kate
+icon=application-xml
+input=
+mimetypes=
+name=trash
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 17]
+actionName=externaltool_XMLFormatFullFile7
+arguments=/aot/build/clearlinux/projects/autospec/autospec/altflags_pgo /aot/build/clearlinux/projects/autospec/autospec/altflags1
+category=Tools
+cmdname=altflags1
+executable=kate
+icon=application-xml
+input=
+mimetypes=
+name=altflags
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 18]
+actionName=externaltool_XMLFormatFullFile8
+arguments=%{Document:Path} %{Document:FilePath}
+category=Tools
+cmdname=tail1
+executable=tail-it.bash
+icon=application-xml
+input=
+mimetypes=
+name=tail
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 19]
+actionName=externaltool_XMLFormatFullFile9
+arguments=%{Document:Path}
+category=Tools
+cmdname=open-terminal
+executable=terminal-it.bash
+icon=application-xml
+mimetypes=
+name=Terminal
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 2]
+actionName=externaltool_gitblame
+arguments=gui blame %{Document:FileName}
+category=Git
+cmdname=git-blame
+executable=git
+icon=
+input=
+mimetypes=
+name=git blame
+output=Ignore
+reload=false
+save=CurrentDocument
+workingDir=%{Document:Path}
+
+[Tool 20]
+actionName=externaltool_XMLFormatFullFile10
+arguments=%{Document:Path}
+category=Tools
+cmdname=files-it
+executable=files-it.bash
+icon=application-xml
+mimetypes=
+name=package
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 21]
+actionName=externaltool_XMLFormatFullFile11
+arguments=%{Document:Path}
+category=Tools
+cmdname=chrootdir-it
+executable=chrootdir-it.bash
+icon=application-xml
+mimetypes=
+name=chroot dir
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 22]
+actionName=externaltool_XMLFormatFullFile12
+arguments=%{Document:Path}
+category=Tools
+cmdname=clrpkgs1
+executable=clrpkgs-it.bash
+icon=application-xml
+mimetypes=
+name=clrpkgs
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 23]
+actionName=externaltool_XMLFormatFullFile13
+arguments=%{Document:Path} default
+category=Tools
+cmdname=options-it1
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=default
+output=Ignore
+reload=true
+save=None
+workingDir=%{Document:Path}
+
+[Tool 24]
+actionName=externaltool_XMLFormatFullFile14
+arguments=%{Document:Path} skiptests
+category=Tools
+cmdname=options-it2
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=skiptests
+output=Ignore
+reload=true
+save=None
+workingDir=%{Document:Path}
+
+[Tool 25]
+actionName=externaltool_XMLFormatFullFile15
+arguments=%{Document:Path} testsfailures
+category=Tools
+cmdname=options-it3
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=testsfailures
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 26]
+actionName=externaltool_XMLFormatFullFile16
+arguments=%{Document:Path} useclang
+category=Tools
+cmdname=options-it4
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=useclang
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 27]
+actionName=externaltool_XMLFormatFullFile17
+arguments=%{Document:Path} sotolib
+category=Tools
+cmdname=options-it5
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=sotolib
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 28]
+actionName=externaltool_XMLFormatFullFile18
+arguments=%{Document:Path} compat
+category=Tools
+cmdname=options-it6
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=compat
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 29]
+actionName=externaltool_XMLFormatFullFile19
+arguments=%{Document:Path} 32bits
+category=Tools
+cmdname=options-it7
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=32bits
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 3]
+actionName=externaltool_ClangFormatFullFile1
+arguments="%{Document:FilePath}"
+category=Tools
+cmdname=sort-kate-duplicate
+executable=/insilications/gstuff/stuff/things/build/mybin/sort-kate.bash
+icon=
+input=
+mimetypes=
+name=Duplicates in File
+output=ReplaceCurrentDocument
+reload=false
+save=CurrentDocument
+workingDir=%{Document:Path}
+
+[Tool 30]
+actionName=externaltool_XMLFormatFullFile20
+arguments=%{Document:Path} fsalt1
+category=Tools
+cmdname=options-it8
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=fsalt1
+output=Ignore
+reload=true
+save=None
+workingDir=%{Document:Path}
+
+[Tool 31]
+actionName=externaltool_XMLFormatFullFile21
+arguments=%{Document:Path} altflags_pgo
+category=Tools
+cmdname=options-it9
+executable=options-it.bash
+icon=kate
+mimetypes=
+name=altflags_pgo
+output=Ignore
+reload=true
+save=None
+workingDir=%{Document:Path}
+
+[Tool 32]
+actionName=externaltool_XMLFormatFullFile22
+arguments=%{Document:FilePath} ofast
+category=Tools
+cmdname=options-it10
+executable=options-it2.bash
+icon=kate
+mimetypes=
+name=ofast
+output=Ignore
+reload=true
+save=None
+workingDir=%{Document:Path}
+
+[Tool 33]
+actionName=externaltool_XMLFormatFullFile23
+arguments=%{Document:FilePath} removedebug
+category=Tools
+cmdname=options-it11
+executable=options-it2.bash
+icon=kate
+mimetypes=
+name=removedebug
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 34]
+actionName=externaltool_ClangFormatSelectedText1
+arguments="%{Document:FilePath}"
+category=Tools
+cmdname=parse-pkgconfig
+executable=/insilications/gstuff/stuff/things/build/mybin/pkgconfig-del.bash
+icon=kate
+mimetypes=
+name=Parse pkgconfig
+output=ReplaceCurrentDocument
+reload=false
+save=CurrentDocument
+workingDir=%{Document:Path}
+
+[Tool 35]
+actionName=externaltool_XMLFormatFullFile24
+arguments=%{Document:Path}
+category=Tools
+cmdname=open-git-clr1
+executable=open-git-clr.bash
+icon=application-xml
+mimetypes=
+name=git-clr
+output=Ignore
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 36]
+actionName=externaltool_QtQuick2Previewqmlscene
+arguments=%{Document:FileName}
+category=Qt
+cmdname=qml-preview
+executable=qmlscene
+icon=kate
+mimetypes=text/x-qml
+name=Qt Quick 2 Preview (qmlscene)
+output=Ignore
+reload=false
+save=CurrentDocument
+workingDir=%{Document:Path}
+
+[Tool 4]
+actionName=externaltool_RunShellScript
+arguments=-e sh -c "cd %{Document:Path} && pwd && chmod -vc a+x %{Document:FileName} && ./%{Document:FileName} ; echo Press any key to continue. && read -n 1"
+category=Tools
+cmdname=run-script
+executable=konsole
+icon=system-run
+input=
+mimetypes=
+name=Run Shell Script
+output=Ignore
+reload=false
+save=CurrentDocument
+workingDir=%{Document:Path}
+
+[Tool 5]
+actionName=externaltool_GoogleSelectedText
+arguments="https://www.google.com/search?q=%{PercentEncoded:%{Document:Selection:Text}}"
+category=Tools
+cmdname=google
+executable=xdg-open
+icon=globe
+input=
+mimetypes=
+name=G
+output=Ignore
+reload=false
+save=None
+workingDir=
+
+[Tool 6]
+actionName=externaltool_InsertUUID
+arguments=%{UUID}
+category=Tools
+cmdname=uuid
+executable=echo
+icon=
+input=
+mimetypes=
+name=Insert UUID
+output=InsertAtCursor
+reload=false
+save=None
+workingDir=
+
+[Tool 7]
+actionName=externaltool_ClangFormatFullFile
+arguments=-i %{Document:FileName}
+category=Tools
+cmdname=clang-format-file
+executable=clang-format
+icon=
+input=
+mimetypes=
+name=Clang Format Full File
+output=Ignore
+reload=true
+save=CurrentDocument
+workingDir=%{Document:Path}
+
+[Tool 8]
+actionName=externaltool_ClangFormatSelectedText
+arguments=-assume-filename=%{Document:FileName}
+category=Tools
+cmdname=clang-format-selection
+executable=clang-format
+icon=
+input=\s%{Document:Selection:Text}
+mimetypes=
+name=Clang Format Selected Text
+output=ReplaceSelectedText
+reload=false
+save=None
+workingDir=%{Document:Path}
+
+[Tool 9]
+actionName=externaltool_JSONFormatFullFile
+arguments='.' %{Document:FileName}
+category=Tools
+cmdname=json-format-file
+executable=jq
+icon=application-json
+input=
+mimetypes=
+name=JSON Format Full File
+output=ReplaceCurrentDocument
+reload=false
+save=CurrentDocument
+workingDir=%{Document:Path}

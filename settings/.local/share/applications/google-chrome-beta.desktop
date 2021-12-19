@@ -1,0 +1,28 @@
+[Desktop Action new-private-window]
+Exec=/usr/bin/google-chrome-beta --incognito
+Name=New Incognito Window
+
+[Desktop Action new-window]
+Exec=/usr/bin/google-chrome-beta
+Name=New Window
+
+[Desktop Entry]
+Actions=new-window;new-private-window;
+Categories=Network;WebBrowser;
+Comment=Access the Internet
+Exec=google-chrome-beta --new-canvas-2d-api --no-crash-upload --disable-reporting --disable-crashpad --disable-breakpad --disable-crash-reporter --use-gl=desktop --enable-gpu-compositing --enable-quic --disable-software-rasterizer --force-dark-mode --password-store=gnome --ignore-gpu-blocklist --enable-gpu-rasterization --enable-features=VaapiVideoDecoder,WebUIDarkMode,CanvasOopRasterization --enable-tcp-fastopen --enable-smooth-scrolling --enable-accelerated-video-decode --enable-zero-copy --enable-skia-renderer --enable-native-gpu-memory-buffers --enable-gpu-memory-buffer-video-frames --enable-gpu-memory-buffer-compositor-resource --enable-accelerated-2d-canvas --enable-accelerated-mjpeg-decode --enable-oop-rasterization-ddl --enable-oop-rasterization %U
+GenericName=Web Browser
+Icon=/opt/google/chrome-beta/product_logo_32_beta.xpm
+MimeType=x-scheme-handler/mailto;application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/ftp;x-scheme-handler/http;x-scheme-handler/https;
+Name=Google Chrome (beta)
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
